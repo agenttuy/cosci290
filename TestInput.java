@@ -76,7 +76,10 @@ public class TestInput{
     
     //double for user input is input.nextDouble();
 
-    
+    /*
+      LAB2 - using the demo above for prompting and receiving user input, create a program that 
+      prompts the user with 4 questions for info related to your text adventure to set up the game
+    */
     
     
   }
