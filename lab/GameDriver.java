@@ -1,42 +1,26 @@
 /*
-  Sina Tuy
-  CoSci 290
+  Author: Sina
   
-  HW1 Instructions
-  1. Create a class called "GameDriver" and save/name the file "GameDriver.java".
-  2. The program shold start up with your text aventure splash screen (it would 
-      be a good idea to use the one from Lab 1).
-  3. Next, the program should have a print out of some storytelling that starts
-      the text adventure.
-  4. Then set up the game with questions asked from the user to start the text
-      adventure (use same questions from Lab 2).
-      TIP: Use Math.random and if-else to randomize elements in the game based 
-        on user input. 
-  5. When the game is over, end the program with a "GAME OVER" message.
+  This class has been updated to use a Utility class to read a file for 
+  all output.
   
-  REMEMBER: 
-  *Declare all your variables at the beginning of the program.
-      
-
 */
 
-//imports used in this class
 import java.util.Scanner;
 
-//Demo HW1 
-public class HW1Demo{
-
-  //start of the application
+public class GameDriver{
+  
   public static void main(String[] args){
     
     //variable declarations with default values
     Scanner input = new Scanner(System.in); //initialize Scanner for user input
-    Utility tool = new Utility(); //instantiate Utility for use
+    Utility utility = new Utility();
     int numberOfStudents = 0;
     String teacherHairColor = "";
     int randomNum = 0;
     int minimum = 1; //set min for range for random numbers
     int maximum = 10; //set max for range for random numbers
+ 
       
     //Splash Screen
     System.out.println("                 _____                _                 _      \n"
@@ -52,10 +36,7 @@ public class HW1Demo{
                    +   " \\/   |_|  \\___/|_| |_| |_| \\/    |_|\\__,_|\\__\\___/\\/          \n");
     
     //story setup
-    System.out.println("It's a nice afternoon on February 15th, 2018 and you walk into your Computer Science 290 class... \n");
-    System.out.println("Everything appears to be normal but you notice that your teacher is acting a little off... \n");
-    System.out.println("You look around and you noticed...SOMETHING WEIRD! \n");
-    System.out.println("Wait a second... How many students are in the class with you? \n");
+    utility.readFile("TextAdventureOutput.txt");
     
     numberOfStudents = input.nextInt(); //get number of students from user and assign to numberOfStudents variable declared above
       
@@ -95,9 +76,6 @@ public class HW1Demo{
                      + " |___| |   |_                                                                   \n" 
                      + "        |____|                                                                  \n");
     
-    
-    
-    
-  
   }
+  
 }

@@ -52,10 +52,7 @@ public class HW1Demo{
                    +   " \\/   |_|  \\___/|_| |_| |_| \\/    |_|\\__,_|\\__\\___/\\/          \n");
     
     //story setup
-    System.out.println("It's a nice afternoon on February 15th, 2018 and you walk into your Computer Science 290 class... \n");
-    System.out.println("Everything appears to be normal but you notice that your teacher is acting a little off... \n");
-    System.out.println("You look around and you noticed...SOMETHING WEIRD! \n");
-    System.out.println("Wait a second... How many students are in the class with you? \n");
+    tool.readFile("Story.txt");
     
     numberOfStudents = input.nextInt(); //get number of students from user and assign to numberOfStudents variable declared above
       
