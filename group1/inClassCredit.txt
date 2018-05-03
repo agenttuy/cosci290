@@ -13,3 +13,45 @@ francisco
 
 @coding bat
 henry
+
+04/19/18
+
+lab 14
+Mark
+Gio
+Lynn
+Mike
+Shipeng
+
+lab 13
+Omar
+Emmanuel
+Henry
+
+Mark * extra credit
+
+CodingBat - group1
+Francisco - 1/2
+Cesar - 1/2
+Omar
+
+Turtle
+John Paul - partial
+
+
+04/24/18
+
+Lab 15
+Shipeng
+Mark
+Gio
+
+Steven L.
+Christian
+
+Lynn - 1 pt.
+
+
+04/26/18
+Lab 16 demo
+Jinhong
