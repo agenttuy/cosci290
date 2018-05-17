@@ -15,6 +15,12 @@ public class Student{
     this.major = "undecided";
   }
   
+  //overloaded constructor
+  public Student(double gpa, String major){
+    this.gpa = gpa;
+    this.major = major;
+  }
+  
   public double getGpa(){
     return this.gpa;
   }
@@ -31,8 +37,9 @@ public class Student{
     this.major = major;
   }
   
+  /*
   public String toString(){
     return "Student = GPA: " + this.gpa + " Major: " + this.major;
-  }
+  }*/
   
 }
